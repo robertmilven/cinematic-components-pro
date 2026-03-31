@@ -1,90 +1,67 @@
-# Cinematic Sites Framework
+# Cinematic Site Modules
 
-31 cinematic website modules + a Claude Code skill that picks and combines them.
-
-> Every module is a **single HTML file**. No frameworks. No build step. No npm. Just open it.
+30 cinematic website modules. Each one is a single HTML file. No frameworks. No build step. No npm. Just open it.
 
 ## Preview
 
-Open `index.html` to browse all 31 modules with animated mini-demos, or open any individual module file directly in a browser.
+Open `index.html` to browse all 30 modules with animated mini-demos, or open any individual module file directly in a browser.
 
-## Install
-
-**Step 1:** Clone the repo
+## Get Started
 
 ```bash
 git clone https://github.com/robonuggets/cinematic-site-components.git
+cd cinematic-site-components
 ```
 
-**Step 2:** Add it to Claude Code
+Then open `index.html` in your browser, or open any module file directly.
 
-```bash
-claude --add-dir ./cinematic-site-components
-```
+## The 30 Modules
 
-**Step 3:** Use it
-
-```
-/cinematic-modules dark agency portfolio with scroll animation
-```
-
-That's it. The skill is now available in your Claude Code session. You can also just browse the modules directly — open any `.html` file in a browser.
-
-## The 31 Cinematic Modules
-
-### Scroll-Driven
+### Scroll-Driven (9)
 | # | Module | What It Does |
 |---|---|---|
 | 01 | Text Mask Reveal | Headline fills with colour as you scroll |
 | 02 | Sticky Stack Narrative | Product pins, features scroll past it |
 | 03 | Layered Zoom Parallax | Depth layers, foreground zooms past |
-| 06 | Horizontal Scroll Hijack | Vertical scroll → horizontal gallery |
-| 07 | Sticky Card Stack | Cards pin and stack on each other |
-| 12 | Scroll SVG Draw | Lines draw themselves on scroll |
-| 13 | Curtain Reveal | Hero splits open like curtains |
-| 16 | Split Screen Scroll | Two halves scroll opposite directions |
-| 20 | Scroll Color Shift | Background changes per section |
+| 04 | Horizontal Scroll Hijack | Vertical scroll → horizontal gallery |
+| 05 | Sticky Card Stack | Cards pin and stack on each other |
+| 06 | Scroll SVG Draw | Lines draw themselves on scroll |
+| 07 | Curtain Reveal | Hero splits open like curtains |
+| 08 | Split Screen Scroll | Two halves scroll opposite directions |
+| 09 | Scroll Color Shift | Background changes per section |
 
-### Cursor & Hover
+### Cursor & Hover (8)
 | # | Module | What It Does |
 |---|---|---|
-| 04 | Cursor-Reactive | Glow, 3D tilt, magnetic buttons, ripples |
-| 09 | Accordion Slider | Strips expand on hover |
-| 11 | Cursor Image Reveal | Before/after with wipe, spotlight, split |
-| 14 | Hover Image Trail | Cursor leaves fading images behind |
-| 18 | 3D Flip Cards | Cards rotate to reveal back |
-| 22 | Magnetic Repel Grid | Tiles push away from cursor |
-| 25 | Spotlight Border Cards | Borders illuminate under cursor |
-| 29 | Drag-to-Pan Grid | Infinite draggable canvas |
+| 10 | Cursor-Reactive | Glow, 3D tilt, magnetic buttons, ripples |
+| 11 | Accordion Slider | Strips expand on hover |
+| 12 | Cursor Image Reveal | Before/after with wipe, spotlight, split |
+| 13 | Hover Image Trail | Cursor leaves fading images behind |
+| 14 | 3D Flip Cards | Cards rotate to reveal back |
+| 15 | Magnetic Repel Grid | Tiles push away from cursor |
+| 16 | Spotlight Border Cards | Borders illuminate under cursor |
+| 17 | Drag-to-Pan Grid | Infinite draggable canvas |
 
-### Click & Tap
+### Click & Tap (6)
 | # | Module | What It Does |
 |---|---|---|
-| 05 | View Transition Morphing | Elements shape-shift between states |
-| 21 | Odometer Counter | Digit wheels roll to target |
-| 23 | Particle Explosion Button | CTAs burst on click |
-| 27 | 3D Coverflow Carousel | Center focused, edges angled |
-| 28 | Dynamic Island Nav | Pill morphs for notifications |
-| 30 | macOS Dock Nav | Icons magnify on hover |
+| 18 | View Transition Morphing | Elements shape-shift between states |
+| 19 | Particle Explosion Button | CTAs burst on click |
+| 20 | Odometer Counter | Digit wheels roll to target |
+| 21 | 3D Coverflow Carousel | Center focused, edges angled |
+| 22 | Dynamic Island Nav | Pill morphs for notifications |
+| 23 | macOS Dock Nav | Icons magnify on hover |
 
-### Ambient & Auto
+### Ambient & Auto (7)
 | # | Module | What It Does |
 |---|---|---|
-| 08 | Text Scramble Decode | Matrix-style character cycling |
-| 10 | Kinetic Marquee | Infinite text bands, scroll-reactive |
-| 15 | Mesh Gradient Background | Animated colour blobs |
-| 17 | Circular Text Path | Text on spinning circle |
-| 19 | Glitch Effect | RGB channel split |
-| 24 | Typewriter Effect | Text types itself |
-| 26 | Gradient Stroke Text | Animated gradient on outlined text |
-
-## How It Works
-
-1. You describe what you want (business type, mood, dark/light)
-2. The skill recommends 2-3 cinematic modules that work well together
-3. Generates a single `index.html` combining them into a complete site
-
-It never picks more than 3 modules (cognitive overload) and follows strict combination rules to avoid conflicting effects.
+| 24 | Text Scramble Decode | Matrix-style character cycling |
+| 25 | Kinetic Marquee | Infinite text bands, scroll-reactive |
+| 26 | Mesh Gradient Background | Animated colour blobs |
+| 27 | Circular Text Path | Text on spinning circle |
+| 28 | Glitch Effect | RGB channel split |
+| 29 | Typewriter Effect | Text types itself |
+| 30 | Gradient Stroke Text | Animated gradient on outlined text |
 
 ## Tech Stack
 
@@ -99,4 +76,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ## Attribution
 
-© Created by Jay from RoboLabs. Learn more at [RoboNuggets](https://robonuggets.com)
+Created by Jay from RoboLabs. Learn more at [RoboNuggets](https://robonuggets.com)
