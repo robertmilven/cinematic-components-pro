@@ -21,7 +21,7 @@ Open `index.html` to browse all 35 modules with animated mini-demos, or open any
 ## Get Started
 
 ```bash
-git clone https://github.com/robertmilven/cinematic-components-pro.git
+git clone https://github.com/ainjection/cinematic-components-pro.git
 cd cinematic-components-pro
 ```
 
